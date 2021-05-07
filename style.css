@@ -6,15 +6,21 @@ html, body {
 body {
     margin: 0;
 
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-
     font-family: 'Kumbh Sans', sans-serif;
     color: hsl(227, 10%, 46%);
 
     background-color: hsl(185, 75%, 39%);
+}
+
+body, .card, .card-content, .stats {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.name, .stat-count, .attribution {
+    color: hsl(229, 23%, 23%);
 }
 
 .pattern-top {
@@ -33,11 +39,6 @@ body {
     position: relative;
     width: 326px;
 
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-
     background: white;
     border-radius: 16px;
 }
@@ -53,17 +54,11 @@ body {
 
 .card-content {
     margin: 64px auto 0 auto;
-
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .name, .stat-count {
     font-size: 18px;
     font-weight: 700;
-    color: hsl(229, 23%, 23%);
 }
 
 .city {
@@ -94,11 +89,6 @@ body {
 
 .stats {
     margin: 16px;
-
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .stat-count {
@@ -126,7 +116,6 @@ footer {
 .attribution {
     font-size: 12px;
     text-align: center;
-    color: hsl(229, 23%, 23%);
 }
 
 .attribution a {
