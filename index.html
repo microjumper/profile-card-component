@@ -2,28 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <div class="card">
+    <img class="card-header" src="images/bg-pattern-card.svg" alt="">
 
-  80K
-  Followers
+    <div class="card-content">
+      <p>Victor Crest 26</p>
+      <p>London</p>
+    </div>
+    <img class="avatar" src="images/image-victor.jpg" alt="">
+    <hr class="divider">
+    <div class="card-footer">
+      <div class="stats">
+        <p class="stat-count">80K</p>
+        <p class="stat-name">Followers</p>
+      </div>
 
-  803K
-  Likes
+      <div class="stats">
+        <p class="stat-count">803K</p>
+        <p class="stat-name">Likes</p>
+      </div>
 
-  1.4K
-  Photos
+      <div class="stats">
+        <p class="stat-count">1.4K</p>
+        <p class="stat-name">Photos</p>
+      </div>
+    </div>
+  </div>
 </body>
 <footer>
   <div class="attribution">
