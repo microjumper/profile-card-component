@@ -19,7 +19,7 @@ body, .card, .card-content, .stats {
     align-items: center;
 }
 
-.name, .stat-count, .attribution {
+.name, .stat-count {
     color: hsl(229, 23%, 23%);
 }
 
@@ -105,19 +105,4 @@ body, .card, .card-content, .stats {
     width: 100%;
 
     border: 1px solid hsla(0, 0%, 59%, 0.15);
-}
-
-footer {
-    padding: 16px 0;
-
-    z-index: 10;
-}
-
-.attribution {
-    font-size: 12px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
